@@ -1,0 +1,13 @@
+<!-- dashgo remote control by joystick -->
+
+<launch>
+	<node pkg="imu_driver" type="imu_node" name="imu_node" output="screen">
+		<param name="port" value="/dev/ttyUSB0" />	
+		<param name="baudrate" value="115200" />  	<!-- dashgo remote control by joystick 115200-->
+	</node>
+
+
+
+
+
+</launch>
